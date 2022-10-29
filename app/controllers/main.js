@@ -174,7 +174,7 @@ function removeProductCart(id) {
     if (indexDelete > -1) {
         arrayPhoneCart.splice(indexDelete, 1);
         Swal.fire({
-            position: 'top-center',
+            position: 'top-end',
             icon: 'success',
             title: 'Delete Completed',
             showConfirmButton: false,
